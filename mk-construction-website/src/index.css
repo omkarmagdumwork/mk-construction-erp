@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #0b1f4b;
+  --color-navy-dark: #071433;
+  --color-navy-mid: #14306e;
+  --color-sky: #8cb4ff;
+  --font-sans: "Inter", sans-serif;
+  --font-heading: "Poppins", sans-serif;
+}
+
+html { 
+  scroll-behavior: smooth; 
+  scroll-padding-top: 80px; /* Navbar height sathi */
+}
+body { font-family: var(--font-sans); -webkit-font-smoothing: antialiased; }
+
+
+/* Customer reviews: endless right-to-left marquee */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 120s linear infinite;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track { animation: none; }
+}

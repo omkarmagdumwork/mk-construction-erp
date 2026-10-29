@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#071433"/><stop offset="1" stop-color="#3A5FAE"/></linearGradient></defs>
+<rect width="400" height="200" fill="url(#s)"/>
+<rect x="120" y="40" width="160" height="140" fill="#E6EEFF"/><rect x="120" y="40" width="160" height="14" fill="#C7D8F5"/>
+<g fill="#3A5FAE"><rect x="140" y="64" width="28" height="26" /><rect x="186" y="64" width="28" height="26"/><rect x="232" y="64" width="28" height="26"/><rect x="140" y="124" width="28" height="26"/></g><rect x="232" y="124" width="28" height="26" fill="#FFD27A"/>
+<rect x="105" y="30" width="4" height="150" fill="#8CB4FF"/><rect x="165" y="30" width="4" height="150" fill="#8CB4FF"/><rect x="225" y="30" width="4" height="150" fill="#8CB4FF"/><rect x="291" y="30" width="4" height="150" fill="#8CB4FF"/>
+<g fill="#0B1F4B"><rect x="100" y="76" width="200" height="5"/><rect x="100" y="112" width="200" height="5"/><rect x="100" y="148" width="200" height="5"/></g>
+<path d="M105 81L165 112M165 117L225 148M225 81L291 112" stroke="#0B1F4B" stroke-width="3" fill="none"/>
+<rect x="320" y="150" width="40" height="30" fill="#8CB4FF"/><rect x="326" y="136" width="28" height="14" fill="#C7D8F5"/><path d="M60 180L72 154L84 180Z" fill="#F5A524"/>
+<rect y="180" width="400" height="20" fill="#071433"/>
+</svg>

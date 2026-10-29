@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14306E"/><stop offset="1" stop-color="#8CB4FF"/></linearGradient>
+<pattern id="w" width="20" height="24" patternUnits="userSpaceOnUse"><rect x="4" y="5" width="12" height="13" fill="#3A5FAE"/></pattern>
+<pattern id="l" width="40" height="48" patternUnits="userSpaceOnUse"><rect x="4" y="5" width="12" height="13" fill="#3A5FAE"/><rect x="24" y="5" width="12" height="13" fill="#3A5FAE"/><rect x="4" y="29" width="12" height="13" fill="#3A5FAE"/><rect x="24" y="29" width="12" height="13" fill="#FFD27A"/></pattern></defs>
+<rect width="400" height="200" fill="url(#s)"/>
+<rect x="60" y="104" width="90" height="76" fill="#8CB4FF"/><rect x="60" y="104" width="90" height="76" fill="url(#w)"/>
+<rect x="250" y="70" width="90" height="110" fill="#C7D8F5"/><rect x="250" y="70" width="90" height="110" fill="url(#w)"/>
+<rect x="150" y="22" width="100" height="158" fill="#E6EEFF"/><rect x="150" y="22" width="100" height="158" fill="url(#l)"/><path d="M150 22L250 22L200 100Z" fill="#FFFFFF" opacity="0.12"/>
+<rect x="198" y="4" width="4" height="20" fill="#E6EEFF"/><circle cx="200" cy="4" r="3" fill="#FFD27A"/>
+<rect x="352" y="130" width="3" height="50" fill="#14306E"/><circle cx="353" cy="128" r="5" fill="#FFD27A"/>
+<rect y="180" width="400" height="20" fill="#071433"/>
+</svg>
