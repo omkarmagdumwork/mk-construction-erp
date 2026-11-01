@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Navigate, useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
+import DemoCredentials from "../components/DemoCredentials";
 
 const Login = () => {
   const { user, login } = useAuth();
@@ -27,6 +28,13 @@ const Login = () => {
     } finally {
       setLoading(false);
     }
+  };
+
+  // Fill the form with the demo account
+  const useDemo = (creds) => {
+    setEmail(creds.email);
+    setPassword(creds.password);
+    setError("");
   };
 
   return (
@@ -71,6 +79,11 @@ const Login = () => {
         >
           {loading ? "Signing in..." : "Sign In"}
         </button>
+
+        {/* Visible only when VITE_SHOW_DEMO=true */}
+        {import.meta.env.VITE_SHOW_DEMO === "true" && (
+          <DemoCredentials onUse={useDemo} />
+        )}
       </form>
     </div>
   );
